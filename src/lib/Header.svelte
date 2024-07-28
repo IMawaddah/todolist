@@ -35,6 +35,7 @@
 
 <button class="btn variant-filled w-48 h-fit py-5 justify-between" use:popup={popupCombobox}>
 	<span>{comboboxValue}</span>
+  <!--icon for the list-->
 	<span class="!m-0"> <svg 
         class=" w-6 rotate-90"
          xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24"><path fill="currentColor" d="M18 3a1 1 0 0 1 .993.883L19 4v16a1 1 0 0 1-1.993.117L17 20V4a1 1 0 0 1 1-1m-12.707.293a1 1 0 0 1 1.32-.083l.094.083l8 8a1 1 0 0 1 .083 1.32l-.083.094l-8 8a1 1 0 0 1-1.497-1.32l.083-.094L12.586 12L5.293 4.707a1 1 0 0 1 0-1.414"/></svg> </span>
@@ -50,4 +51,5 @@
 	<div class="arrow bg-surface-100-800-token" />
 </div>
 					
-</header>
+</header> 
+
